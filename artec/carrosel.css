@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+
+.conteiner p{
+padding-top: 10px;
+ font-size: 30px;
+ font-family: 'Sedgwick Ave Display', cursive;
+ text-align: center;
+ color: white;
+}
+
+
+.conteiner {
+    width: 925px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: auto; /* Centraliza horizontalmente */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative; /* Mantém o posicionamento relativo */
+    top: 0; /* Ajuste vertical, pode ser ajustado conforme necessário */
+    
+}@media screen and (max-width: 768px) {
+    .conteiner {
+      width: 90%; /* Tamanho para telas menores */
+    }
+  }
+
+
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar{
+    width: 70px;
+    height: 17px;
+    border: 2px solid white;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .6s;
+}@media screen and (max-width: 768px) {
+    .bar {
+      width: 50px; /* Tamanho para telas menores */
+      ;
+    }
+  }
+
+.bar:hover{
+    background-color: #FF7550;
+}
+
+input{
+    display: none;
+}
+
+.slides{
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide{
+    width: 20%;
+    transition: .6s;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+#slide1:checked ~.s1{
+    margin-left: 0;
+}
+
+#slide2:checked ~.s1{
+    margin-left: -20%;
+}
+
+#slide3:checked ~.s1{
+    margin-left: -40%;
+}
+
+#slide4:checked ~.s1{
+    margin-left: -60%;
+}
+
+#slide5:checked ~.s1{
+    margin-left: -80%;
+}
+
