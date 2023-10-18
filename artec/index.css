@@ -1,0 +1,423 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+/* Estilo para o header */
+header {
+    background: linear-gradient(to bottom, rgb(243, 51, 217),#FF7550);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0; /* Cor de fundo do header */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  }
+
+header h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: bolder;
+    margin-left: 25px;
+ }
+
+
+ 
+ header h2{
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 25px;
+ }
+
+.btn6{
+    font-family: 'Barriecito', cursive;;
+    background-color: rgb(243, 51, 217);
+    border: solid 2px #000;
+    border-radius: 4px;
+    color: #000;
+    height: 35px;
+    margin-left: 15px;
+    padding-left: 10px;
+    padding-bottom: 6px;
+    
+    
+}
+
+.logozinha{
+    margin-left: 200px;
+    margin-top: -90px;
+    
+}
+.logozinha img{
+    max-width: 80px;
+    
+}
+/* Media query para telas menores que 768px */
+@media screen and (max-width: 768px) {
+    img {
+      width: 60px; /* Tamanho para telas menores */
+      margin-left: 0;
+      padding-left: 0;
+    }
+  }
+  
+
+.navbar-toggler{
+    margin-top: 20px;
+    margin-right: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.div-btns_header{
+    padding-top: 30px;
+}
+
+/* Restante do seu estilo CSS para header, nav, ul, li, etc. */
+
+
+
+
+/* Restante do seu estilo CSS para header, h1, h2, nav, ul, li, etc. */
+
+
+/* Restante do seu estilo CSS para header, h1, h2, nav, ul, li, etc. */
+
+
+/* Restante do seu estilo CSS para header, h1, h2, nav, ul, li, etc. */
+
+
+
+ul {
+    list-style: none; /* Remover marcadores de lista */
+    padding: 0;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+
+li {
+    display: inline; /* Exibir os itens da lista em linha */
+    margin-right: 0px; /* Espaçamento entre os itens */
+    margin-top: 25px;
+    border-radius: 10px;
+    padding-top: 0px;
+    background-color: transparent; /* Define o fundo como transparente */
+    border: 50px solid cor-da-borda; /* Define a cor e a largura da borda */
+   
+}
+
+a {
+    text-decoration: none; /* Remover sublinhado dos links */ /* Cor do texto dos links */
+    font-size: 17px;
+}
+
+a:hover {
+    color: white;
+    background-color: #ff76506d;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+}
+
+.hover-text {
+    display: none; /* Inicialmente, esconde a mensagem */
+    position: static;
+    background-color: rgba(0, 0, 0, 0.7); /* Cor de fundo com transparência */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    
+    transform: translate(10px, -50%); /* Posiciona à direita da imagem e verticalmente centralizado */
+}
+
+/* Exibe a mensagem quando o mouse passa por cima da imagem */
+.image-container:hover .hover-text {
+    display: block;
+}
+  
+ /* Estilo para o lado direito (botão) */
+.botao_api_clima {
+    margin-right: 20px; /* Mantendo a margem direita */
+    border-radius: 4px;
+    width: 90px;
+    height: 30px;
+    float: right; /* Alterado para float: right para alinhar à direita */
+    background-color: #ff765088;
+    padding-left: 10px;
+    padding-top: 2px;
+    border: #000 solid 2px;
+    margin-left: 10px;
+}
+
+button::before {
+    position: absolute;
+    content: "";
+    background: var(--color);
+    width: 150px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+button:hover {
+    color: white;
+}
+
+button:before {
+    top: 100%;
+    left: 100%;
+    transition: .3s all;
+}
+
+button:hover::before {
+    top: -30px;
+    left: -30px;
+}
+
+
+
+main h1{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+main h2{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+main{
+    background-color: #FF7550;
+    height: 1300px;
+    color: white;
+    padding-left: 50px;
+}@media screen and (max-width: 768px) {
+    main {
+      padding-left: 30px /* Tamanho para telas menores */
+      
+    }
+  }
+
+
+td h1{
+    margin-left: 100px;
+    margin-top: 170px;
+    font-size: 70px;
+}
+
+td h2{
+    margin-left: 100px;
+    margin-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+td p{
+    margin-left: 100px;
+    margin-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+}
+
+#content{
+    display: flex;
+    background-color: #FF7550;
+    background: url("imagens/ponte\ santa\ isabel\ 1916.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 70vh;
+}@media screen and (max-width: 768px) {
+    #content {
+      height: 200px; /* Tamanho para telas menores */
+      ;
+    }
+  }
+
+#content img{
+    border-radius: 10px;
+
+}@media screen and (max-width: 768px) {
+    #content img {
+      width: 250px; /* Tamanho para telas menores */
+    }
+  }
+
+.img_moda1 img{
+    width: 700px;
+    margin-top: 30px;
+
+}@media screen and (max-width: 768px) {
+    .img_moda1 img {
+      width: 360px; /* Tamanho para telas menores */
+      ;
+    }
+  }
+
+.conteudo_foto1moda{
+    display: flex;
+
+}@media screen and (max-width: 768px) {
+    .conteudo_foto1moda{
+      flex-direction: column; /* Tamanho para telas menores */
+      ;
+    }
+    .img_moda1{
+        flex: 1;
+        
+    }
+    .texto_foto1moda h1{
+        flex: 1;
+        margin-top: 30px;
+        margin-left: 5px;
+        
+    }
+    .texto_foto1moda h2{
+        flex: 1;
+        margin-top: 30px;
+        margin-left: 5px;
+        
+    }
+    .texto_foto1moda p{
+        flex: 1;
+        margin-top: 30px;
+        margin-left: 5px;
+        
+    }
+  }
+
+
+section p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding-top: 16px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+}
+
+article h1{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 60px;
+}
+
+#content04{
+    background: linear-gradient(to bottom, #FF7550,#d50606);
+    height: 700px;
+    font-family:  'Vidaloka', serif;
+    color: white;
+}@media screen and (max-width: 768px) {
+    #content04 {
+      height: 280px; /* Tamanho para telas menores */
+      padding-bottom: 0;
+    }
+  }
+.video_rec_n_play{
+    border-radius: 7px;
+    width: 800px;
+    height: 415px
+}@media screen and (max-width: 768px) {
+    .video_rec_n_play {
+      height: 200px; /* Tamanho para telas menores */
+    }
+    #div_video_recnplay{
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+  }
+
+section div{
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+}
+
+/* Estilo para o footer */
+footer {
+    background: linear-gradient(to bottom,#d50606,#FF7550);
+    color: #fff;
+    padding: 20px 0;
+    height: 300px;
+    font-family: 'Quicksand', sans-serif;
+}@media screen and (max-width: 768px) {
+    footer {
+      height: 400px; /* Tamanho para telas menores */
+      padding: 0;
+    }
+  }
+.footer-content {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin: 10px;
+}@media screen and (max-width: 768px) {
+    .footer-content {
+      flex-wrap: wrap; /* Tamanho para telas menores */
+      margin: 0;
+      padding: 10px;
+      padding-bottom: 0;
+    }
+  }
+
+.footer-logo img {
+    width: 400px;
+    height: auto;
+}@media screen and (max-width: 768px) {
+    .footer-logo img {
+      width: 250px; /* Tamanho para telas menores */
+    }
+  }
+
+.footer-info {
+    flex: 2;
+    margin: 5px;
+}
+
+.footer-info h4 {
+    font-size: 18px;
+    margin: 5px;
+}
+
+.footer-info p {
+    margin: 5px 0;
+    
+}
+
+.footer-social {
+    flex: 1;
+}
+
+.footer-social h4 {
+    font-size: 18px;
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-social ul li {
+    margin: 5px 0;
+}
+
+.footer-social ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-social ul li a:hover {
+    text-decoration: underline;
+}
+
+

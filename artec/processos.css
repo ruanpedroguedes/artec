@@ -1,0 +1,297 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Estilo para o header */
+
+header {
+    background: linear-gradient(to bottom, rgb(243, 51, 217),#FF7550);
+    height: 110px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0; /* Cor de fundo do header */
+    padding: 10px;
+  }
+  
+  header h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: bolder;
+    margin-left: 25px;
+ }
+ 
+ header h2{
+     font-family: 'Sedgwick Ave Display', cursive;
+     font-size: 25px;
+     padding: 0;
+     margin: 0;
+ }
+
+.btn6{
+    height: 30px;
+    font-family: 'Barriecito', cursive;;
+    background-color: rgb(243, 51, 217);
+}
+
+
+/* Restante do seu estilo CSS para header, nav, ul, li, etc. */
+
+
+
+
+/* Restante do seu estilo CSS para header, h1, h2, nav, ul, li, etc. */
+
+
+/* Restante do seu estilo CSS para header, h1, h2, nav, ul, li, etc. */
+
+
+/* Restante do seu estilo CSS para header, h1, h2, nav, ul, li, etc. */
+
+
+ nav {
+    position: absolute; /* Para posicionamento absoluto */
+    top: 0; /* Para alinhar o topo do nav com o topo do header */
+    right: 0; /* Para alinhar o nav à direita do header */
+    padding: 10px; /* Espaçamento interno */
+    
+}
+
+ul {
+    list-style: none; /* Remover marcadores de lista */
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    display: inline; /* Exibir os itens da lista em linha */
+    margin-right: 10px; /* Espaçamento entre os itens */
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: transparent; /* Define o fundo como transparente */
+    border: 50px solid cor-da-borda; /* Define a cor e a largura da borda */
+   
+}
+
+a {
+    text-decoration: none; /* Remover sublinhado dos links */ /* Cor do texto dos links */
+    font-size: 17px;
+}
+
+
+a:hover {
+    color: white; /* Altera a cor do texto para branco quando o mouse passa por cima */
+    background-color: #ff76506d; /* Altera a cor de fundo para azul quando o mouse passa por cima */
+    border-radius: 5px;
+    width: 100px;
+}
+
+button::before {
+    position: absolute;
+    content: "";
+    background: var(--color);
+    width: 150px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+button:hover {
+    color: white;
+    
+}
+
+button:before {
+    top: 100%;
+    left: 100%;
+    transition: .3s all;
+    
+}
+
+button:hover::before {
+    top: -30px;
+    left: -30px;
+}
+ 
+  /* Estilo para o lado esquerdo (div) */
+  header div {
+    margin-left: 20px; /* Margem à esquerda para afastar do lado esquerdo da tela */
+  }
+  
+ /* Estilo para o lado direito (botão) */
+header button {
+    margin-right: 10px; /* Mantendo a margem direita */
+    margin-bottom: 10px;
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
+    float: right; /* Alterado para float: right para alinhar à direita */
+    background-color: transparent;
+}
+.header2 {
+    background: linear-gradient(to bottom,#FF7550,#f7582c,rgb(252, 89, 25),#FF7550);
+    height: 250px;
+    align-items: center; 
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.hr2 {
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.art {
+    text-align: right;
+    padding-bottom: 20px; /* Reduzido o espaçamento inferior */
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.rec {
+    text-align: center;
+    padding-top: 10px; /* Reduzido o espaçamento superior */
+    padding-bottom: 10px; /* Adicionado espaçamento inferior */
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.intro {
+    text-align: center;
+    padding-bottom: 20px; /* Ajustado o espaçamento inferior */
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+main{
+    background-color: #FF7550;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 55px;
+    padding-bottom: 110px;
+}
+
+section{
+    background-color: #FF7550;
+}
+
+/* Estilo para o footer */
+footer {
+    background: linear-gradient(to bottom,#d50606,#FF7550);
+    color: #fff;
+    padding: 20px 0;
+    height: 300px;
+    font-family: 'Quicksand', sans-serif;
+}@media screen and (max-width: 768px) {
+    footer {
+      height: 400px; /* Tamanho para telas menores */
+      padding: 0;
+    }
+  }
+.footer-content {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin: 10px;
+}@media screen and (max-width: 768px) {
+    .footer-content {
+      flex-wrap: wrap; /* Tamanho para telas menores */
+      margin: 0;
+      padding: 10px;
+      padding-bottom: 0;
+    }
+  }
+
+.footer-logo img {
+    width: 400px;
+    height: auto;
+}@media screen and (max-width: 768px) {
+    .footer-logo img {
+      width: 250px; /* Tamanho para telas menores */
+    }
+  }
+
+.footer-info {
+    flex: 2;
+    margin: 5px;
+}
+
+.footer-info h4 {
+    font-size: 18px;
+    margin: 5px;
+}
+
+.footer-info p {
+    margin: 5px 0;
+    
+}
+
+.footer-social {
+    flex: 1;
+}
+
+.footer-social h4 {
+    font-size: 18px;
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-social ul li {
+    margin: 5px 0;
+}
+
+.footer-social ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-social ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+td h1{
+    margin-left: 200px;
+    font-size: 50px;
+}
+
+td h2{
+    margin-left: 200px;
+    margin-top: 70px;
+}
+
+td p{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+div{
+    text-align: center;
+}
+
+div h1{ 
+    margin-bottom: 30px;
+}
+
+.imagens{
+    margin-bottom: 35px;
+}
+
+#texto-colecoes{
+    margin-top: 60px;
+    margin-bottom: 150px;
+}
+
